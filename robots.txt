@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://your-username.github.io/isinkwa-bakery/sitemap.xml
