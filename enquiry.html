@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enquiry - Isinkwa Bakery</title>
+    
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Isinkwa Bakery Logo" height="60">
+                <span class="logo-text">Isinkwa Bakery</span>
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Enquiry</h1>
+            <p>Let us help you with your custom baking needs</p>
+        </div>
+    </section>
+
+    <section class="enquiry-section">
+        <div class="container">
+            <div class="enquiry-grid">
+                <!-- Form Column -->
+                <div class="enquiry-form">
+                    <h2>Send us a Message</h2>
+                    <p>Fill in the form below and we'll get back to you within 24 hours.</p>
+                    
+                    <form id="enquiryForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="custom-order">Custom Order</option>
+                                <option value="catering">Catering Enquiry</option>
+                                <option value="event">Special Event</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date-needed">Date Needed</label>
+                            <input type="date" id="date-needed" name="date-needed">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your enquiry..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Enquiry</button>
+                    </form>
+                </div>
+                
+                <div class="enquiry-info">
+                    <h2>How Can We Help?</h2>
+                    <p>Whether you're planning a special event, need a custom cake, or want to order in bulk, we're here to help!</p>
+                    
+                    <div class="info-box">
+                        <h3><i class="fas fa-birthday-cake"></i> Custom Cakes</h3>
+                        <p>Celebrate your special occasion with a custom-made cake from Isinkwa Bakery. Choose from our range of flavours and designs.</p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3><i class="fas fa-utensils"></i> Catering</h3>
+                        <p>We offer catering services for corporate events, weddings, and private functions. Let us create a memorable spread for your guests.</p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3><i class="fas fa-box"></i> Bulk Orders</h3>
+                        <p>Need bread or pastries in bulk? We offer wholesale pricing for businesses and large events.</p>
+                    </div>
+                    
+                    <div class="info-box">
+                        <h3><i class="fas fa-clock"></i> Lead Time</h3>
+                        <p>Please allow 48 hours for custom orders. For large events, we recommend booking at least 1 week in advance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <h4>Isinkwa Bakery</h4>
+                <p>Fresh artisan bread and pastries baked daily in Woodstock, Cape Town.</p>
+            </div>
+            <div class="footer-hours">
+                <h4>Opening Hours</h4>
+                <p><strong>Mon-Fri:</strong> 6:30am - 4:00pm</p>
+                <p><strong>Sat:</strong> 7:00am - 2:00pm</p>
+                <p><strong>Sun:</strong> Closed</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> 021 123 4567</p>
+                <p><i class="fas fa-envelope"></i> info@isinkwabakery.co.za</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Isinkwa Bakery. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
